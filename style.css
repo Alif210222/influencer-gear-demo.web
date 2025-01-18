@@ -19,7 +19,7 @@ header{
 
 .nav-menu{
     display:flex; 
-    gap:34px ;
+    gap:30px ;
     list-style: none;
 }
 .nav-menu a{
@@ -81,4 +81,68 @@ header{
 }
 .banner-img{
     padding: 50px;
+}
+.banner-img img{
+    width: 100%;
+}
+
+
+/* sopncer style */
+.sponcer-section{
+    margin: 100px 80px;
+}
+.sponcer-contailer{
+     margin:20px 130px ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: 2px solid rgb(235, 234, 234);
+    padding: 30px;
+      /* display: grid;
+      grid-template-columns: repeat(7,1fr); */
+      
+}
+
+
+
+/* respomsive desing */
+
+
+@media screen and (max-width:576px){
+    body{
+        margin: 20px;
+    }
+
+    header{
+        margin: 0px;
+    }
+
+    .navber
+    {
+        flex-direction:column;
+    }
+    .nav-menu{
+        flex-direction: column ;
+    }
+
+    .banner-container{
+         flex-direction: column-reverse;
+         gap:0px;
+    }
+
+    .banner-container{
+        background-image: none;
+    }
+
+    .sponcer-contailer{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        border: none;
+    }
+
+    .sponcer-section{
+          margin: 0px;
+    }
 }
