@@ -1,0 +1,84 @@
+body{
+    font-family:sans-serif;
+
+}
+header{
+    margin:20px 80px;
+}
+
+.navber{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color:#3A3A3A;
+}
+
+.nav-menu{
+    display:flex; 
+    gap:34px ;
+    list-style: none;
+}
+.nav-menu a{
+    text-decoration: none;
+    color:#3A3A3A;
+    font-weight: 700;
+    font-size: 1.1rem;
+} 
+.nav-menu a:hover{
+    color: rgb(223, 10, 234);
+}
+ 
+
+/* banner style */
+
+.banner-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 100px;
+    /* border:2px solid black; */
+    background-image: url(images/circle.svg) ;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+
+}
+.banner-content{
+    gap:16px;
+}
+.banner-title{
+    font-size: 3.2rem;
+    font-weight: bold;
+    color:#3A3A3A;
+}
+.banner-description{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color:#3A3A3A;
+
+}
+.banner-btn{
+    
+    padding:15px 20px;
+    font-weight: 600;
+    background-color:#E02C6D ;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+.banner-btn:hover{
+     opacity: 0.8;
+}
+.banner-btn i{
+    margin-left: 10px;
+   
+}
+.banner-img{
+    padding: 50px;
+}
