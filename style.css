@@ -12,7 +12,7 @@ header{
     align-items: center;
 }
 .brand{
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     font-weight: bold;
     color:#0A0826;
 }
@@ -99,10 +99,12 @@ header{
     gap: 50px;
     border: 2px solid rgb(235, 234, 234);
     padding: 30px;
+    text-align:center;
       /* display: grid;
       grid-template-columns: repeat(7,1fr); */
       
 }
+
 
 .collection-title{
     text-align: center;
@@ -158,6 +160,21 @@ header{
     font-weight: bold; 
     color:#787885;
 }
+
+/* more-btn style */
+
+.more-btn{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 15px;
+      margin-right: 40px;
+      color:#E02C6D;
+      cursor: pointer;
+      font-weight: 700;
+    
+}
+
 
 .feature-container{
     margin:100px 80px; 
@@ -261,6 +278,12 @@ header{
     .card-container{
     margin: 0px;
     grid-template-columns: repeat(1,1fr);
+    }
+
+    .feature-container{
+        margin: 100px 20px;
+        flex-direction: column;
+        gap:30px;
     }
     
 }
